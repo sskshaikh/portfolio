@@ -1,0 +1,106 @@
+
+@import 'utilities.css';
+
+*{
+    padding: 0;margin: 0; 
+    -webkit-font-smotthing:antialised;
+    box-sizing:border-box;
+}
+body{
+    width: 100%;
+    height: 2000px;
+    background-color: var(--light);
+}
+
+:root{
+    --primery:#3DCFD3;;
+    --dark:#161616;
+    --pure:#ffffff;
+    --ternary:#898989;
+    --light:#f2f2f2;
+    --brightpink:#FF0080;
+}
+header{
+    /* position: fixed; */
+    width: 100%;
+    clip-path:polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%)
+    
+}
+
+header nav .right a{
+    color: var(--pure);
+    padding:0px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    
+}
+a:active{
+    color: var(--primery);
+}
+
+header nav .right a:hover{
+    color:var(--primery);
+    transition: all 0.9s;
+}
+header {
+    background-color: var(--dark);
+    color: var(--pure);
+}
+header nav .left a{
+    color: var(--brightpink);
+    font-size: 30px;
+    color: var(--brightpink);
+    text-decoration: none;
+    
+}
+.banner{
+   padding: 3rem 0;
+}
+
+.banner .left img{
+    padding: 0 0;
+    /* border:5px solid var(--primery); */
+    border-radius:  50%;
+    
+}
+
+
+.banner .right h6{
+    font-size: 1.5rem;
+    color:var(--brightpink)
+    
+}
+.banner .right h1{
+    font-size: 4rem;
+    line-height: 1.0;
+    margin-bottom: 2rem;
+}
+.banner .right h1 span{
+    color: var(--brightpink);
+}
+.banner .right p{
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom:2rem;
+}
+.banner .right{
+    margin-top:-7rem;
+}
+.aboutme{
+    border: 2px solid black;
+    
+}
+.rightc{
+    padding-top:50px;
+}
+.social-icon i{
+    font-size: 50px;
+    /* background-color: blue; */
+    color:blue;
+    padding: 50px 10px;
+}
+.about{
+    margin-top:150px;
+}
