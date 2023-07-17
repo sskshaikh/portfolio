@@ -3,6 +3,7 @@
 @import 'jquiry.css';
 
 
+
 *{
     padding: 0;margin: 0; 
     -webkit-font-smotthing:antialised;
@@ -91,28 +92,33 @@ header nav .left a{
     margin-top:-7rem;
 }
 .aboutme{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     
 }
 .rightc{
     padding-top:50px;
       
 }
+.right-col h2{
+    font-size: 30px;
+
+}
 .social-icon i{
     font-size: 50px;
     /* background-color: blue; */
     color:blue;
-    margin: 50px 10px;
+    margin: 0px 10px;
 }
 .about{
-    margin-top:100px;
+    margin-top:80;
     
 }
 
 .services{
     background-color: var(--light);
     /* padding: 50px 0; */
-    margin:50px 0;
+    margin:30px 0;
+
 }
 .hire-me{
     width: 100%;
@@ -195,6 +201,10 @@ header nav .left a{
 
 .main-box{
     margin-bottom: 50px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
 }
 
 

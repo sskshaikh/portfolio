@@ -40,9 +40,63 @@
 
             -webkit-transition: .7s ease-in-out;  
         }
+
+        header{
+            width: 100%;
+            background-color: black;
+            color: white;
+
+        }
+        ul{
+            list-style-type: none;
+        }
+       nav{
+        display: inline-block;
+
+       }
+       nav ul{
+        position:relative;
+        display: flex;
+        
+       }
+        .sub{
+            width: 110px;
+            background-color: red;
+         opacity: 0;
+         /* position: absolute; */
+        }
+        .btn{
+          color: white;
+          /* position: relative; */
+        }
+        .btn:hover .sub{
+            opacity: 0.9;
+            color:red'
+        }
     </style>
 </head>
 <body>
+
+<header>
+    <nav>
+        <ul>
+            <li>home</li>
+            <li>home
+                <ul>
+                    <li>about company</li>
+                    <li>about Customer</li>
+                </ul>
+            </li>
+            <li>home</li>
+        </ul>
+    </nav>
+
+    <a href="" class="btn">Home
+    </a>
+    <a href="" class="sub">SubMome</a>
+</header>
+
+
     <div class="containter" style="width: 1200px; margin: 20px auto;">
         <div class="" style="text-align: justify;">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis aut adipisci aspernatur, deserunt exercitationem veritatis numquam. Nisi officia, itaque voluptatem amet in placeat repudiandae consequatur odio perferendis beatae aliquam obcaecati?
